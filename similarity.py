@@ -94,7 +94,7 @@ def Graph_networkx(threshold, num_rows,similarity_matrix):
     for i in range(num_rows):
         for j in range(i + 1, num_rows):
             similarity = similarity_matrix[i, j]
-            if threshold < similarity < 0.9:
+            if threshold < similarity < 0.9: #0.9 used so that articles very similar in context (about the same thing from different sources) are avoided
                 G.add_edge(i + 1, j + 1, weight=similarity)
 
     partition = community.best_partition(G)
