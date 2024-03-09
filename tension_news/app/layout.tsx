@@ -1,5 +1,10 @@
+import { Navbar } from "@/components/Navbar";
+import { createClient } from "@/utils/supabase/server";
 import { GeistSans } from "geist/font/sans";
+import { redirect } from "next/navigation";
+import AuthButton from "../components/AuthButton";
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -7,22 +12,19 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
-  description: "The fastest way to build apps with Next.js and Supabase",
+  title: "TensionNews",
+  description: "The Business & Finance News Hub",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const RootLayout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" className={GeistSans.className}>
-      <body className="bg-background text-foreground">
-        <main className="min-h-screen flex flex-col items-center">
-          {children}
-        </main>
+      <body className="dark grid min-h-screen bg-background text-foreground">
+        {children}
+        <Toaster />
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
