@@ -4,8 +4,8 @@ import numpy as np
 from sqlalchemy.dialects.postgresql import ARRAY
 from datetime import datetime
 import networkx as nx
-import matplotlib.pyplot as plt
 import json
+import community  # Louvain community detection
 
 app = Flask(__name__)
 
@@ -64,12 +64,23 @@ def calculate_similarity():
             if 0.5 < similarity < 1:
                 G.add_edge(i + 1, j + 1, weight=similarity)
 
+    # Perform Louvain clustering
+    partition = community.best_partition(G)
+    
+    # Add cluster information to graph data
+    for node_id, cluster_id in partition.items():
+        G.nodes[node_id]['cluster'] = cluster_id
+
     data1 = nx.node_link_data(G)
     json_filename = 'graph_data_from_flask.json'
+    
+    # Add cluster data to graph data
+    data1['clusters'] = {"Clusters": partition}
+    
     with open(json_filename, 'w') as json_file:
         json.dump(data1, json_file, indent=2)
 
-    return jsonify({"Similarity_Matrix": similarity_matrix.tolist(), "Graph_Data": data1}), 200
+    return jsonify({"Similarity_Matrix": similarity_matrix.tolist(), "Graph_Data": data1, "Cluster_Data": {"Clusters": partition}}), 200
 
 if __name__ == '__main__':
     with app.app_context():
