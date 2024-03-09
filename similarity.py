@@ -24,6 +24,7 @@ class SerpTest(db.Model):
     source = db.Column(db.String)
     vectors = db.Column(db.JSON)
     tags = db.Column(JSONB)
+    sentiment = db.Column(db.String)
 
 def tag_similarity():
     print("tag!")
@@ -88,6 +89,8 @@ def vector_similarity():
 
 def Graph_networkx(threshold, num_rows,similarity_matrix):
     G = nx.Graph()
+    sentiments = db.session.query(SerpTest.sentiment).all()
+    sentiments = [sentiment[0] for sentiment in sentiments]
     for i in range(num_rows):
         G.add_node(i + 1, id=i + 1)
     
@@ -100,10 +103,11 @@ def Graph_networkx(threshold, num_rows,similarity_matrix):
     partition = community.best_partition(G)
     for node_id, cluster_id in partition.items():
         G.nodes[node_id]['cluster'] = cluster_id
+        G.nodes[node_id]['sentiment'] = sentiments[node_id - 1]
 
     data1 = nx.node_link_data(G)
     json_filename = 'graph_data_from_flask.json'
-    data1['clusters'] = {"Clusters": partition}
+    # data1['clusters'] = {"Clusters": partition}
     
     with open(json_filename, 'w') as json_file:
         json.dump(data1, json_file, indent=2)
