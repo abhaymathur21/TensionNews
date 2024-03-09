@@ -52,8 +52,9 @@ def calculate_similarity():
             if isinstance(vector2, dict):
                 vector2 = np.array(vector2['vectors'])  # Convert dictionary to NumPy array
             similarity_matrix[i, j] = compute_similarity(vector1, vector2)
-
+    Graph_networkx(0.5,num_rows,similarity_matrix)
     # Generate a new semantic network based on the similarity matrix
+def Graph_networkx(threshold, num_rows,similarity_matrix):
     G = nx.Graph()
     for i in range(num_rows):
         G.add_node(i + 1, id=i + 1)  # Add nodes with generated IDs
@@ -61,7 +62,7 @@ def calculate_similarity():
     for i in range(num_rows):
         for j in range(i + 1, num_rows):
             similarity = similarity_matrix[i, j]
-            if 0.5 < similarity < 1:
+            if threshold < similarity < 1:
                 G.add_edge(i + 1, j + 1, weight=similarity)
 
     # Perform Louvain clustering
