@@ -1,0 +1,541 @@
+{
+    "search_metadata": {
+        "id": "65ec26520ead41a3fc76e6f5",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/1c937ee82d8b7163/65ec26520ead41a3fc76e6f5.json",
+        "created_at": "2024-03-09 09:05:22 UTC",
+        "processed_at": "2024-03-09 09:05:22 UTC",
+        "google_url": "https://www.google.com/search?q=business+news&oq=business+news&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&num=20&safe=active&start=0&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/1c937ee82d8b7163/65ec26520ead41a3fc76e6f5.html",
+        "total_time_taken": 3.38
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "business news",
+        "location_requested": "India",
+        "location_used": "India",
+        "google_domain": "google.com",
+        "hl": "en",
+        "gl": "in",
+        "safe": "active",
+        "start": 0,
+        "num": "20",
+        "device": "desktop"
+    },
+    "search_information": {
+        "query_displayed": "business news",
+        "total_results": 17330000000,
+        "time_taken_displayed": 0.32,
+        "organic_results_state": "Results for exact spelling"
+    },
+    "inline_videos": [
+        {
+            "position": 1,
+            "title": "LIVE | Tracking Latest Stock Market Headlines & Top ...",
+            "link": "https://www.youtube.com/watch?v=_3Fdhel9Do8",
+            "thumbnail": "https://i.ytimg.com/vi/_3Fdhel9Do8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k3iTUuYgSn5buX5-sncWE63giEKg",
+            "channel": "CNBC-TV18",
+            "duration": "26:05",
+            "platform": "YouTube",
+            "date": "1 day ago"
+        },
+        {
+            "position": 2,
+            "title": "Share Market Opening LIVE | Stock Market LIVE News ...",
+            "link": "https://www.youtube.com/watch?v=2V1kF_9hsU8",
+            "thumbnail": "https://i.ytimg.com/vi/2V1kF_9hsU8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mNSrKczMiuUINfnl22MGlkGC-w6g",
+            "channel": "NDTV Profit",
+            "duration": "1:57:30",
+            "platform": "YouTube",
+            "date": "2 days ago"
+        },
+        {
+            "position": 3,
+            "title": "Zee Business LIVE | Investment Tips | Share Market Live ...",
+            "link": "https://www.youtube.com/watch?v=b5EDBmF6lKU",
+            "thumbnail": "https://i.ytimg.com/vi/b5EDBmF6lKU/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kkbQbM0uAuNGWtNRM2RDBYVHEjeA",
+            "channel": "Zee Business",
+            "platform": "YouTube"
+        }
+    ],
+    "inline_people_also_search_for": [
+        {
+            "title": "Stock in news",
+            "items": [
+                {
+                    "name": "Network18",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEoeXrY0eNnvF9WhvTr7jczlv8h103Uf0537i&s=0",
+                    "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Network+18&stick=H4sIAAAAAAAAAOOQUeLSz9U3MDIrMktPN-ItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzEiKT3FyAHiJOdkmZ9i5AQxzcosKitPMfLqp-sbGqZlp1jmpSUn_WLkDUY2soGFcRErl19qSXl-UbaCocUtNkkGN6m1MWrpV5oP3fO5ESF17kF0SnbE7azGVAALGMaenAAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qs9oBKAB6BAhTEAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Network+18&safe=active&start=0&stick=H4sIAAAAAAAAAOOQUeLSz9U3MDIrMktPN-ItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzEiKT3FyAHiJOdkmZ9i5AQxzcosKitPMfLqp-sbGqZlp1jmpSUn_WLkDUY2soGFcRErl19qSXl-UbaCocUtNkkGN6m1MWrpV5oP3fO5ESF17kF0SnbE7azGVAALGMaenAAAAA"
+                },
+                {
+                    "name": "Dow Jones & Company",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9phJi3R2_iDfITYjF1xZNBB0L9f1g5nQmp7Cf&s=0",
+                    "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Dow+Jones+%26+Company&stick=H4sIAAAAAAAAAOOQUeLQz9U3SM7JMjfiLS7JT85WyMxTyEstL47iTSotzsxLLS4Gc08xcoEUGpkVmaWnn2KE6zrFyAlimpVZVFaeYuTVT9c3NEzLTrHMS0tO-sXIG4xsZAML4yJWYZf8cgWvfKDBCmoKzvm5BYl5lbfYJBncpNbGqKVfaT50z-dGhNS5B9Ep2RG3sxpTASW0iE6jAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qs9oBKAF6BAhTEAM",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Dow+Jones+%26+Company&safe=active&start=0&stick=H4sIAAAAAAAAAOOQUeLQz9U3SM7JMjfiLS7JT85WyMxTyEstL47iTSotzsxLLS4Gc08xcoEUGpkVmaWnn2KE6zrFyAlimpVZVFaeYuTVT9c3NEzLTrHMS0tO-sXIG4xsZAML4yJWYZf8cgWvfKDBCmoKzvm5BYl5lbfYJBncpNbGqKVfaT50z-dGhNS5B9Ep2RG3sxpTASW0iE6jAAAA"
+                },
+                {
+                    "name": "TheStreet, Inc.",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpWV0pMQVRyzZMTH20zn5gUKiJPF8_I1JuLIZ2&s=0",
+                    "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=TheStreet&stick=H4sIAAAAAAAAAOOQUeLUz9U3MCuzqKw04i0uyU_OVsjMU8hLLS-O4k0qLc7MSy0uBnNPMXKBVBqZFZmlp59i5ABxknOyzE8xIkw4xcirn65vaJiWnWKZl5ac9IuRNxjZyAYWxkWsnCEZqcElRampJbfYJBncpNbGqKVfaT50z-dGhNS5B9Ep2RG3sxpTAZHiyTSaAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qs9oBKAJ6BAhTEAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=TheStreet&safe=active&start=0&stick=H4sIAAAAAAAAAOOQUeLUz9U3MCuzqKw04i0uyU_OVsjMU8hLLS-O4k0qLc7MSy0uBnNPMXKBVBqZFZmlp59i5ABxknOyzE8xIkw4xcirn65vaJiWnWKZl5ac9IuRNxjZyAYWxkWsnCEZqcElRampJbfYJBncpNbGqKVfaT50z-dGhNS5B9Ep2RG3sxpTAZHiyTSaAAAA"
+                },
+                {
+                    "name": "Fox Corporation",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPoWZPUi6oUPReD7B2qghJwNFx6j7tleRkAXeC&s=0",
+                    "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Fox+Corporation&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEzLTrHMS0tOMuItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzFy6efqGxiZFZmlp59i5ABxknOyzE8xcoKYZmUWlZWnGFFN_MXIG4xsZAML4yJWfrf8CgXn_KKC_KLEksz8vFtskgxuUmtj1NKvNB-653MjQurcg-iU7IjbWY2pADDHbbukAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qs9oBKAN6BAhTEAU",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Fox+Corporation&safe=active&start=0&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEzLTrHMS0tOMuItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzFy6efqGxiZFZmlp59i5ABxknOyzE8xcoKYZmUWlZWnGFFN_MXIG4xsZAML4yJWfrf8CgXn_KKC_KLEksz8vFtskgxuUmtj1NKvNB-653MjQurcg-iU7IjbWY2pADDHbbukAAAA"
+                }
+            ],
+            "see_more_link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Stock+in+news&stick=H4sIAAAAAAAAAOOQMeItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzFy6efqGxiZFZmlp59i5ABxknOyzE8xcoKYZmUWlZWnGHn10_UNDdOyUyzz0pKTfjHyBiMb2cDCuIgVVegWmySDm9TaGLX0K82H7vnciJA69yA6JTvidlZjKgA-AJQ6kwAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q4qYDegQIUxAG",
+            "see_more_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Stock+in+news&safe=active&start=0&stick=H4sIAAAAAAAAAOOQMeItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzFy6efqGxiZFZmlp59i5ABxknOyzE8xcoKYZmUWlZWnGHn10_UNDdOyUyzz0pKTfjHyBiMb2cDCuIgVVegWmySDm9TaGLX0K82H7vnciJA69yA6JTvidlZjKgA-AJQ6kwAAAA"
+        }
+    ],
+    "related_questions": [
+        {
+            "question": "Which business is growing fast in India?",
+            "snippet": "Food Industry The food industry is one of the biggest sectors in the fastest growing business in India. The traditional food industry is comprised of selling agricultural goods and services.",
+            "title": "Top 6 Fastest Growing Business in India in 2023 - Chai Sutta Bar",
+            "link": "https://www.chaisuttabarindia.com/blog/fastest-growing-business-in-india/#:~:text=Food%20Industry&text=The%20food%20industry%20is%20one,selling%20agricultural%20goods%20and%20services.",
+            "displayed_link": "https://www.chaisuttabarindia.com \u203a blog \u203a fastest-growi...",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgl6P18sJxIHLCyuYvIMCO3JPnR9u6maz5kPO0eATQAg&s",
+            "source_logo": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/ec864ed7c475500d3b0c95e023bd9daa6fd960ff6663a9d320619c8ed86e9930.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOclJtYzBPREZ2Vm5sdVprY3pOMlJzVFhrMlZuVm1aSEZQYzA1MU0xTnpMVzFCVkdWclNVOVNVRTVtVmtreU5GSmxPSHBSZDA5c1NuRmFhRnBGVm1FNU1UQnBVRVZRRWhkV1EySnpXbVZEYmtKd1lsVTFUbTlRYkdWMVpUWkJheG9pUVZCWWFHMDFZbU40YW5SMGJERTFSRVZzVm5KclpUVjFkSEZaVGtKRmNWTkNVUSIsImZjdiI6IjMiLCJlaSI6IlZDYnNaZUNuQnBiVTVOb1BsZXVlNkFrIiwicWMiOiJDZzFpZFhOcGJtVnpjeUJ1WlhkekVBQjl0TDh6UHciLCJxdWVzdGlvbiI6IldoaWNoIGJ1c2luZXNzIGlzIGdyb3dpbmcgZmFzdCBpbiBJbmRpYT8iLCJsayI6IkdpZDNhR2xqYUNCaWRYTnBibVZ6Y3lCcGN5Qm5jbTkzYVc1bklHWmhjM1FnYVc0Z2FXNWthV0UiLCJicyI6ImMtT0s0TklJejhoTXpsQklLaTNPekVzdExsYklMRlpJTDhvdno4eExWMGhMTEM1UnlNeFQ4TXhMeVV5MGwzZ3ZiNlFwcFY1T1VIa21TRG1YRjVjaXhPVGlqTVNpVkpDNnBGU2dmRWstVUc4bGtFcEpyTFNYYUkweFVwSlNLQ2Vnaml1RlN5ODhJN0VFSkZtU2thcVFYRnBVbEpvSFZBTWtVMEEyZ2dTTFNfS1RzeFZ5RTR1eVUwdnNKWHIxamZTbGRNdEowY1JseENVS3M4VTNFNml5UERXcE9MTWsxVjVpdWJ1Um1KUUl6TEJjSkRrQlJnQSIsImlkIjoiZmNfNiJ9",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOclJtYzBPREZ2Vm5sdVprY3pOMlJzVFhrMlZuVm1aSEZQYzA1MU0xTnpMVzFCVkdWclNVOVNVRTVtVmtreU5GSmxPSHBSZDA5c1NuRmFhRnBGVm1FNU1UQnBVRVZRRWhkV1EySnpXbVZEYmtKd1lsVTFUbTlRYkdWMVpUWkJheG9pUVZCWWFHMDFZbU40YW5SMGJERTFSRVZzVm5KclpUVjFkSEZaVGtKRmNWTkNVUSIsImZjdiI6IjMiLCJlaSI6IlZDYnNaZUNuQnBiVTVOb1BsZXVlNkFrIiwicWMiOiJDZzFpZFhOcGJtVnpjeUJ1WlhkekVBQjl0TDh6UHciLCJxdWVzdGlvbiI6IldoaWNoIGJ1c2luZXNzIGlzIGdyb3dpbmcgZmFzdCBpbiBJbmRpYT8iLCJsayI6IkdpZDNhR2xqYUNCaWRYTnBibVZ6Y3lCcGN5Qm5jbTkzYVc1bklHWmhjM1FnYVc0Z2FXNWthV0UiLCJicyI6ImMtT0s0TklJejhoTXpsQklLaTNPekVzdExsYklMRlpJTDhvdno4eExWMGhMTEM1UnlNeFQ4TXhMeVV5MGwzZ3ZiNlFwcFY1T1VIa21TRG1YRjVjaXhPVGlqTVNpVkpDNnBGU2dmRWstVUc4bGtFcEpyTFNYYUkweFVwSlNLQ2Vnaml1RlN5ODhJN0VFSkZtU2thcVFYRnBVbEpvSFZBTWtVMEEyZ2dTTFNfS1RzeFZ5RTR1eVUwdnNKWHIxamZTbGRNdEowY1JseENVS3M4VTNFNml5UERXcE9MTWsxVjVpdWJ1Um1KUUl6TEJjSkRrQlJnQSIsImlkIjoiZmNfNiJ9"
+        },
+        {
+            "question": "Which share is best to buy today?",
+            "title": "Stocks to Buy Today",
+            "link": "https://www.5paisa.com/share-market-today/stocks-to-buy-or-sell-today",
+            "displayed_link": "https://www.5paisa.com \u203a share-market-today \u203a stocks-to...",
+            "source_logo": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/ec864ed7c475500d3b0c95e023bd9daa781142d367b2f4e2685dd0ab49227cb6.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOclJtYzBPREZ2Vm5sdVprY3pOMlJzVFhrMlZuVm1aSEZQYzA1MU0xTnpMVzFCVkdWclNVOVNVRTVtVmtreU5GSmxPSHBSZDA5c1NuRmFhRnBGVm1FNU1UQnBVRVZRRWhkV1EySnpXbVZEYmtKd1lsVTFUbTlRYkdWMVpUWkJheG9pUVZCWWFHMDFZbU40YW5SMGJERTFSRVZzVm5KclpUVjFkSEZaVGtKRmNWTkNVUSIsImZjdiI6IjMiLCJlaSI6IlZDYnNaZUNuQnBiVTVOb1BsZXVlNkFrIiwicWMiOiJDZzFpZFhOcGJtVnpjeUJ1WlhkekVBQjl0TDh6UHciLCJxdWVzdGlvbiI6IldoaWNoIHNoYXJlIGlzIGJlc3QgdG8gYnV5IHRvZGF5PyIsImxrIjoiR2lCM2FHbGphQ0J6YUdGeVpTQnBjeUJpWlhOMElIUnZJR0oxZVNCMGIyUmhlUSIsImJzIjoiYy1PSzROSUl6OGhNemxCSUtpM096RXN0TGxiSUxGWklMOG92ejh4TFYwaExMQzVSeU14VDhNeEx5VXkwbDNndmI2UXBwVjVPVUhrbVNEbVhGNWNpeE9UaWpNU2lWSkM2cEZTZ2ZFay1VRzhsa0VwSnJMU1hhSTB4VXBKU0tDZWdqaXVGU3k4OEk3RUVKRm1Ta2FxUVhGcFVsSm9IVkFNa1UwQTJnZ1NMU19LVHN4VnlFNHV5VTB2c0pYcjFqZlNsZE10SjBjUmx4Q1VLczhVM0U2aXlQRFdwT0xNazFWNWl1YnVSbUpRSXpMQmNKRGtCUmdBIiwiaWQiOiJmY182In0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOclJtYzBPREZ2Vm5sdVprY3pOMlJzVFhrMlZuVm1aSEZQYzA1MU0xTnpMVzFCVkdWclNVOVNVRTVtVmtreU5GSmxPSHBSZDA5c1NuRmFhRnBGVm1FNU1UQnBVRVZRRWhkV1EySnpXbVZEYmtKd1lsVTFUbTlRYkdWMVpUWkJheG9pUVZCWWFHMDFZbU40YW5SMGJERTFSRVZzVm5KclpUVjFkSEZaVGtKRmNWTkNVUSIsImZjdiI6IjMiLCJlaSI6IlZDYnNaZUNuQnBiVTVOb1BsZXVlNkFrIiwicWMiOiJDZzFpZFhOcGJtVnpjeUJ1WlhkekVBQjl0TDh6UHciLCJxdWVzdGlvbiI6IldoaWNoIHNoYXJlIGlzIGJlc3QgdG8gYnV5IHRvZGF5PyIsImxrIjoiR2lCM2FHbGphQ0J6YUdGeVpTQnBjeUJpWlhOMElIUnZJR0oxZVNCMGIyUmhlUSIsImJzIjoiYy1PSzROSUl6OGhNemxCSUtpM096RXN0TGxiSUxGWklMOG92ejh4TFYwaExMQzVSeU14VDhNeEx5VXkwbDNndmI2UXBwVjVPVUhrbVNEbVhGNWNpeE9UaWpNU2lWSkM2cEZTZ2ZFay1VRzhsa0VwSnJMU1hhSTB4VXBKU0tDZWdqaXVGU3k4OEk3RUVKRm1Ta2FxUVhGcFVsSm9IVkFNa1UwQTJnZ1NMU19LVHN4VnlFNHV5VTB2c0pYcjFqZlNsZE10SjBjUmx4Q1VLczhVM0U2aXlQRFdwT0xNazFWNWl1YnVSbUpRSXpMQmNKRGtCUmdBIiwiaWQiOiJmY182In0%3D"
+        },
+        {
+            "question": "What is the current trend in the stock market?",
+            "title": "Top U.S. Markets",
+            "link": "https://www.reuters.com/markets/us/",
+            "displayed_link": "https://www.reuters.com \u203a markets",
+            "source_logo": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/ec864ed7c475500d3b0c95e023bd9daa55c0228361d0947a929a26fafa64d14b.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOclJtYzBPREZ2Vm5sdVprY3pOMlJzVFhrMlZuVm1aSEZQYzA1MU0xTnpMVzFCVkdWclNVOVNVRTVtVmtreU5GSmxPSHBSZDA5c1NuRmFhRnBGVm1FNU1UQnBVRVZRRWhkV1EySnpXbVZEYmtKd1lsVTFUbTlRYkdWMVpUWkJheG9pUVZCWWFHMDFZbU40YW5SMGJERTFSRVZzVm5KclpUVjFkSEZaVGtKRmNWTkNVUSIsImZjdiI6IjMiLCJlaSI6IlZDYnNaZUNuQnBiVTVOb1BsZXVlNkFrIiwicWMiOiJDZzFpZFhOcGJtVnpjeUJ1WlhkekVBQjl0TDh6UHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGN1cnJlbnQgdHJlbmQgaW4gdGhlIHN0b2NrIG1hcmtldD8iLCJsayI6ImM1UFNMYzlJTEZISUxGWW95VWhWU0M0dEtrck5LMUVvQVpJcENwbDVZTUhpa3Z6a2JJWGN4S0xzMUJJQSIsImJzIjoiYy1PSzROSUl6OGhNemxCSUtpM096RXN0TGxiSUxGWklMOG92ejh4TFYwaExMQzVSeU14VDhNeEx5VXkwbDNndmI2UXBwVjVPVUhrbVNEbVhGNWNpeE9UaWpNU2lWSkM2cEZTZ2ZFay1VRzhsa0VwSnJMU1hhSTB4VXBKU0tDZWdqaXVGU3k4OEk3RUVKRm1Ta2FxUVhGcFVsSm9IVkFNa1UwQTJnZ1NMU19LVHN4VnlFNHV5VTB2c0pYcjFqZlNsZE10SjBjUmx4Q1VLczhVM0U2aXlQRFdwT0xNazFWNWl1YnVSbUpRSXpMQmNKRGtCUmdBIiwiaWQiOiJmY182In0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOclJtYzBPREZ2Vm5sdVprY3pOMlJzVFhrMlZuVm1aSEZQYzA1MU0xTnpMVzFCVkdWclNVOVNVRTVtVmtreU5GSmxPSHBSZDA5c1NuRmFhRnBGVm1FNU1UQnBVRVZRRWhkV1EySnpXbVZEYmtKd1lsVTFUbTlRYkdWMVpUWkJheG9pUVZCWWFHMDFZbU40YW5SMGJERTFSRVZzVm5KclpUVjFkSEZaVGtKRmNWTkNVUSIsImZjdiI6IjMiLCJlaSI6IlZDYnNaZUNuQnBiVTVOb1BsZXVlNkFrIiwicWMiOiJDZzFpZFhOcGJtVnpjeUJ1WlhkekVBQjl0TDh6UHciLCJxdWVzdGlvbiI6IldoYXQgaXMgdGhlIGN1cnJlbnQgdHJlbmQgaW4gdGhlIHN0b2NrIG1hcmtldD8iLCJsayI6ImM1UFNMYzlJTEZISUxGWW95VWhWU0M0dEtrck5LMUVvQVpJcENwbDVZTUhpa3Z6a2JJWGN4S0xzMUJJQSIsImJzIjoiYy1PSzROSUl6OGhNemxCSUtpM096RXN0TGxiSUxGWklMOG92ejh4TFYwaExMQzVSeU14VDhNeEx5VXkwbDNndmI2UXBwVjVPVUhrbVNEbVhGNWNpeE9UaWpNU2lWSkM2cEZTZ2ZFay1VRzhsa0VwSnJMU1hhSTB4VXBKU0tDZWdqaXVGU3k4OEk3RUVKRm1Ta2FxUVhGcFVsSm9IVkFNa1UwQTJnZ1NMU19LVHN4VnlFNHV5VTB2c0pYcjFqZlNsZE10SjBjUmx4Q1VLczhVM0U2aXlQRFdwT0xNazFWNWl1YnVSbUpRSXpMQmNKRGtCUmdBIiwiaWQiOiJmY182In0%3D"
+        },
+        {
+            "question": "What is Mint website?",
+            "snippet": "Mint.com is an online personal finance tool that allows you to track your spending and helps you make a budget. Mint is a free service. If you want to use Mint, you must sync all of your financial accounts, or at least the ones you want to utilize via Mint.",
+            "title": "How to Use Mint: Budget Simply - Investopedia",
+            "link": "https://www.investopedia.com/personal-finance/how-use-mint-app/#:~:text=Mint.com%20is%20an%20online,want%20to%20utilize%20via%20Mint.",
+            "displayed_link": "https://www.investopedia.com \u203a personal-finance \u203a how-...",
+            "source_logo": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/ec864ed7c475500d3b0c95e023bd9daaa9d9f3c02ba67bb871eca859f546001a.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOclJtYzBPREZ2Vm5sdVprY3pOMlJzVFhrMlZuVm1aSEZQYzA1MU0xTnpMVzFCVkdWclNVOVNVRTVtVmtreU5GSmxPSHBSZDA5c1NuRmFhRnBGVm1FNU1UQnBVRVZRRWhkV1EySnpXbVZEYmtKd1lsVTFUbTlRYkdWMVpUWkJheG9pUVZCWWFHMDFZbU40YW5SMGJERTFSRVZzVm5KclpUVjFkSEZaVGtKRmNWTkNVUSIsImZjdiI6IjMiLCJlaSI6IlZDYnNaZUNuQnBiVTVOb1BsZXVlNkFrIiwicWMiOiJDZzFpZFhOcGJtVnpjeUJ1WlhkekVBQjl0TDh6UHciLCJxdWVzdGlvbiI6IldoYXQgaXMgTWludCB3ZWJzaXRlPyIsImxrIjoiR2hSM2FHRjBJR2x6SUcxcGJuUWdkMlZpYzJsMFpRIiwiYnMiOiJjLU9LNE5JSXo4aE16bEJJS2kzT3pFc3RMbGJJTEZaSUw4b3Z6OHhMVjBoTExDNVJ5TXhUOE14THlVeTBsM2d2YjZRcHBWNU9VSGttU0RtWEY1Y2l4T1Rpak1TaVZKQzZwRlNnZkVrLVVHOGxrRXBKckxTWGFJMHhVcEpTS0NlZ2ppdUZTeTg4STdFRUpGbVNrYXFRWEZwVWxKb0hWQU1rVTBBMmdnU0xTX0tUc3hWeUU0dXlVMHZzSlhyMWpmU2xkTXRKMGNSbHhDVUtzOFUzRTZpeVBEV3BPTE1rMVY1aXVidVJtSlFJekxCY0pEa0JSZ0EiLCJpZCI6ImZjXzYifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOclJtYzBPREZ2Vm5sdVprY3pOMlJzVFhrMlZuVm1aSEZQYzA1MU0xTnpMVzFCVkdWclNVOVNVRTVtVmtreU5GSmxPSHBSZDA5c1NuRmFhRnBGVm1FNU1UQnBVRVZRRWhkV1EySnpXbVZEYmtKd1lsVTFUbTlRYkdWMVpUWkJheG9pUVZCWWFHMDFZbU40YW5SMGJERTFSRVZzVm5KclpUVjFkSEZaVGtKRmNWTkNVUSIsImZjdiI6IjMiLCJlaSI6IlZDYnNaZUNuQnBiVTVOb1BsZXVlNkFrIiwicWMiOiJDZzFpZFhOcGJtVnpjeUJ1WlhkekVBQjl0TDh6UHciLCJxdWVzdGlvbiI6IldoYXQgaXMgTWludCB3ZWJzaXRlPyIsImxrIjoiR2hSM2FHRjBJR2x6SUcxcGJuUWdkMlZpYzJsMFpRIiwiYnMiOiJjLU9LNE5JSXo4aE16bEJJS2kzT3pFc3RMbGJJTEZaSUw4b3Z6OHhMVjBoTExDNVJ5TXhUOE14THlVeTBsM2d2YjZRcHBWNU9VSGttU0RtWEY1Y2l4T1Rpak1TaVZKQzZwRlNnZkVrLVVHOGxrRXBKckxTWGFJMHhVcEpTS0NlZ2ppdUZTeTg4STdFRUpGbVNrYXFRWEZwVWxKb0hWQU1rVTBBMmdnU0xTX0tUc3hWeUU0dXlVMHZzSlhyMWpmU2xkTXRKMGNSbHhDVUtzOFUzRTZpeVBEV3BPTE1rMVY1aXVidVJtSlFJekxCY0pEa0JSZ0EiLCJpZCI6ImZjXzYifQ%3D%3D"
+        }
+    ],
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "Business News, Finance News, Union Budget 2024, India ...",
+            "link": "https://www.business-standard.com/",
+            "redirect_link": "https://www.google.comhttps://www.business-standard.com/",
+            "displayed_link": "https://www.business-standard.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e9b63ecf4463f66acf79cc83d22b784f1.png",
+            "date": "5 hours ago",
+            "snippet": "Business News: Get latest stock share market news, financial news, budget 2024 news, economy news, company news, politics news, India news, breaking news at ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "financial news",
+                "company news"
+            ],
+            "source": "Business Standard"
+        },
+        {
+            "position": 2,
+            "title": "Business News, Economic News, Indian Stock Market News",
+            "link": "https://www.moneycontrol.com/news/business/",
+            "redirect_link": "https://www.google.comhttps://www.moneycontrol.com/news/business/",
+            "displayed_link": "https://www.moneycontrol.com \u203a NEWS",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9ec17c6cf938cec994e15242fd6c109cc3.png",
+            "date": "2 hours ago",
+            "snippet": "Find Latest Business News on Indian Economy,Top News on Monetary & Trade Policies, BSE & NSC Notices, Management Interviews & more .",
+            "snippet_highlighted_words": [
+                "Business News"
+            ],
+            "source": "Moneycontrol"
+        },
+        {
+            "position": 3,
+            "title": "Latest News on Business, Stock Markets, Financial ...",
+            "link": "https://timesofindia.indiatimes.com/business",
+            "redirect_link": "https://www.google.comhttps://timesofindia.indiatimes.com/business",
+            "displayed_link": "https://timesofindia.indiatimes.com \u203a business",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e7f43701c82ab722233c0d38524e0de67.png",
+            "date": "8 hours ago",
+            "snippet": "Check latest updates on business, finance and economy from across the world. Get daily updates for BSE Sensex, Share price, Stock markets, BSE, NSE, Nifty, ...",
+            "snippet_highlighted_words": [
+                "business"
+            ],
+            "source": "Times of India"
+        },
+        {
+            "position": 4,
+            "title": "Business News Live, Share Market News - Read Latest ...",
+            "link": "https://m.economictimes.com/",
+            "redirect_link": "https://www.google.comhttps://m.economictimes.com/",
+            "displayed_link": "https://m.economictimes.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9efd5994d28a4ce9941a9cc9e34976b275.png",
+            "date": "3 hours ago",
+            "snippet": "Business News - Read Latest Financial news, Stock/Share Market News, Economy News, Business News on The Economic Times. Find IPO Analysis, Mutual Funds ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "Financial news",
+                "Business News"
+            ],
+            "source": "The Economic Times"
+        },
+        {
+            "position": 5,
+            "title": "Business News India: Latest Business News Today, Share ...",
+            "link": "https://www.businesstoday.in/",
+            "redirect_link": "https://www.google.comhttps://www.businesstoday.in/",
+            "displayed_link": "https://www.businesstoday.in",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9ef8ef235c93fe376b77d8854984750aac.png",
+            "date": "5 hours ago",
+            "snippet": "Business News Today: Get latest business news from India, breaking business news updates, live share market news today, trending business news, stocks, IPO, ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "business news",
+                "business news",
+                "business news"
+            ],
+            "source": "Business Today"
+        },
+        {
+            "position": 6,
+            "title": "Latest Business News, Share Market Today, Gold ...",
+            "link": "https://indianexpress.com/section/business/",
+            "redirect_link": "https://www.google.comhttps://indianexpress.com/section/business/",
+            "displayed_link": "https://indianexpress.com \u203a section \u203a business",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9ee876a25117ff33fce0678ff4d40b92d0.png",
+            "date": "5 hours ago",
+            "snippet": "Business News Today: Get business news updates from India and the world along with Indian Economy, World Economy, Monetary Policies, Share/Stock Market News ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "business news"
+            ],
+            "source": "The Indian Express"
+        },
+        {
+            "position": 7,
+            "title": "Business News Today: Read Latest Business News, Live ...",
+            "link": "https://www.livemint.com/",
+            "redirect_link": "https://www.google.comhttps://www.livemint.com/",
+            "displayed_link": "https://www.livemint.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9ea1a86eabb253896fd242cb9fe615907a.png",
+            "date": "5 hours ago",
+            "snippet": "Business News: Read latest Business News headlines, LIVE share market news and updates, financial, economic and banking news from India & across the World ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "Business News"
+            ],
+            "source": "livemint.com"
+        },
+        {
+            "position": 8,
+            "title": "Business News: Business News India, Business News Today ...",
+            "link": "https://www.financialexpress.com/",
+            "redirect_link": "https://www.google.comhttps://www.financialexpress.com/",
+            "displayed_link": "https://www.financialexpress.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e85774c4dfb0d3db789d132fde80bbfb6.png",
+            "date": "5 hours ago",
+            "snippet": "Business News Live: Find here latest business news and finance news, share market updates, live stock market news, IPO update, banking and insurance sector ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "business news"
+            ],
+            "source": "The Financial Express"
+        },
+        {
+            "position": 9,
+            "title": "Business News",
+            "link": "https://www.hindustantimes.com/business",
+            "redirect_link": "https://www.google.comhttps://www.hindustantimes.com/business",
+            "displayed_link": "https://www.hindustantimes.com \u203a business",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e807854f85dac4c480b06afccbb8ad9af.jpeg",
+            "date": "17 hours ago",
+            "snippet": "Business News - Get latest updates on Business News Today along with India and World Economy News. Also read updates on Finance, Share Market Today, ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "Business News"
+            ],
+            "source": "Hindustan Times"
+        },
+        {
+            "position": 10,
+            "title": "Business News Today: Stock and Share Market News ...",
+            "link": "https://www.moneycontrol.com/",
+            "redirect_link": "https://www.google.comhttps://www.moneycontrol.com/",
+            "displayed_link": "https://www.moneycontrol.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9ef8ad87cf74fca0ee23e349321943728b.png",
+            "date": "5 hours ago",
+            "snippet": "Business News Today: Read the latest business news on the Indian economy, global market, upcoming IPOs and more. Get Live Stock Price, Stock and Share ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "business news"
+            ],
+            "source": "Moneycontrol"
+        },
+        {
+            "position": 11,
+            "title": "Business Financial, Economy, Market, Stock - News ...",
+            "link": "https://www.thehindubusinessline.com/",
+            "redirect_link": "https://www.google.comhttps://www.thehindubusinessline.com/",
+            "displayed_link": "https://www.thehindubusinessline.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e0bd17eebf68fc96fe4098168fa417add.jpeg",
+            "date": "18 hours ago",
+            "snippet": "BusinessLine India's leading website for business and financial news, BSE and NSE quotes, stock recommendations, market analysis and research, politics, ...",
+            "snippet_highlighted_words": [
+                "financial news"
+            ],
+            "source": "The Hindu BusinessLine"
+        },
+        {
+            "position": 12,
+            "title": "Bloomberg - Business News, Stock Markets, Finance ...",
+            "link": "https://www.bloomberg.com/",
+            "redirect_link": "https://www.google.comhttps://www.bloomberg.com/",
+            "displayed_link": "https://www.bloomberg.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e4f3efe0f4f07938e3b09aa5f70779bc7.png",
+            "date": "5 hours ago",
+            "snippet": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News.",
+            "snippet_highlighted_words": [
+                "business",
+                "news",
+                "News"
+            ],
+            "source": "Bloomberg.com"
+        },
+        {
+            "position": 13,
+            "title": "Business News, Finance News, Market News, Stock ...",
+            "link": "https://www.thehindu.com/business/",
+            "redirect_link": "https://www.google.comhttps://www.thehindu.com/business/",
+            "displayed_link": "https://www.thehindu.com \u203a business",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e0020ed64cb13e99dd3cce34408b21ba9.png",
+            "date": "15 hours ago",
+            "snippet": "Catch All The Latest News And Updates On Business, Finance, Economy, Stock Market, BSE, NSE, Nifty, Sensex & Much More At The Hindu.",
+            "snippet_highlighted_words": [
+                "News",
+                "Business"
+            ],
+            "source": "The Hindu"
+        },
+        {
+            "position": 14,
+            "title": "CNBC TV18: Business News - Stock Market & Share Market ...",
+            "link": "https://www.cnbctv18.com/",
+            "redirect_link": "https://www.google.comhttps://www.cnbctv18.com/",
+            "displayed_link": "https://www.cnbctv18.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e21f45754dc54ff35f09515f0a003c0cf.png",
+            "date": "18 hours ago",
+            "snippet": "Business News - Get the latest business news, live share market, stock market updates, Sensex, Nifty 50, and BSE/NSE updates. Read more about market news, ...",
+            "snippet_highlighted_words": [
+                "Business News",
+                "business news"
+            ],
+            "source": "CNBC TV18"
+        },
+        {
+            "position": 15,
+            "title": "Business - The New York Times International",
+            "link": "https://www.nytimes.com/international/section/business",
+            "redirect_link": "https://www.google.comhttps://www.nytimes.com/international/section/business",
+            "displayed_link": "https://www.nytimes.com \u203a international \u203a section \u203a busi...",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e03b300787db7dca5a5839d26f76711c1.png",
+            "date": "11 hours ago",
+            "snippet": "Breaking news and analysis on business and the economy, including the latest news in technology, stock markets, media and finance.",
+            "snippet_highlighted_words": [
+                "news",
+                "business",
+                "news"
+            ],
+            "source": "The New York Times"
+        },
+        {
+            "position": 16,
+            "title": "Business News",
+            "link": "https://www.indiatoday.in/business",
+            "redirect_link": "https://www.google.comhttps://www.indiatoday.in/business",
+            "displayed_link": "https://www.indiatoday.in \u203a business",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9eea889cd0b679a342948c85472d74f449.png",
+            "snippet": "Business News \u00b7 Upcoming IPOs: Popular Vehicles & Services and Krystal Integrated Services \u00b7 Baron Capital raises Swiggy's valuation by 13% to $12.1 billion.",
+            "snippet_highlighted_words": [
+                "Business News"
+            ],
+            "source": "India Today"
+        },
+        {
+            "position": 17,
+            "title": "Zee Business: Business News - Latest Business News - Stock ...",
+            "link": "https://www.zeebiz.com/",
+            "redirect_link": "https://www.google.comhttps://www.zeebiz.com/",
+            "displayed_link": "https://www.zeebiz.com",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9e068d995c57244cef446f155df76f711a.png",
+            "date": "23 hours ago",
+            "snippet": "Business News: Zee Business provides the latest business news such as Indian stock market news and Updates, sensex live news & nifty news.",
+            "snippet_highlighted_words": [
+                "Business News",
+                "business news"
+            ],
+            "source": "Zee Business"
+        },
+        {
+            "position": 18,
+            "title": "Business Insider India: Business News - Read Latest Startup ...",
+            "link": "https://www.businessinsider.in/",
+            "redirect_link": "https://www.google.comhttps://www.businessinsider.in/",
+            "displayed_link": "https://www.businessinsider.in",
+            "favicon": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/4e096551168cf53190413f488f81de9ec293dc1418fc059878e747a0dd46b32d.png",
+            "snippet": "Business News - Read Startup, Auto, Tech, Stock Market, Finance, Career, Education, Science, Health, Mobile, Crypto, Sustainability News.",
+            "snippet_highlighted_words": [
+                "Business News"
+            ],
+            "source": "Business Insider India"
+        }
+    ],
+    "top_stories": [
+        {
+            "title": "Today's Latest Business News, Finance and Share Market News at 5:30 pm on 8 March 2024",
+            "link": "https://indianexpress.com/audio/expresso-business-update/todays-latest-business-news-finance-and-share-market-news-at-530-pm-on-8-march-2024/9202348/",
+            "source": "The Indian Express",
+            "date": "20 hours ago",
+            "thumbnail": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/8982ea04b901f5d06a72c4e55dd8bcf63d3ef544d8b54496.jpeg"
+        },
+        {
+            "title": "Business News at 05:30 pm on 8th March, 2024",
+            "link": "https://www.financialexpress.com/audio/expresso-business-update/business-news-at-0530-pm-on-8th-march-2024/3419295/",
+            "source": "The Financial Express",
+            "date": "21 hours ago",
+            "thumbnail": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/8982ea04b901f5d03496ce387572e23352be4fefde9e5075.jpeg"
+        },
+        {
+            "title": "17% salary hike to DA: Top 5 benefits PSU bank employees set to get after IBA, unions pact | Mint",
+            "link": "https://www.livemint.com/industry/banking/17-salary-hike-to-da-top-5-benefits-psu-bank-employees-set-to-get-after-iba-unions-pact-11709958702656.html",
+            "source": "mint",
+            "date": "4 hours ago",
+            "thumbnail": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/8982ea04b901f5d03b3d17d433e50db4305b0d9daf5e4701.jpeg"
+        },
+        {
+            "title": "Indicators suggest Nifty likely to post fifth consecutive weekly gains next week",
+            "link": "https://www.moneycontrol.com/news/business/markets/indicators-suggest-nifty-likely-to-post-fifth-consecutive-weekly-gains-next-week-12427781.html",
+            "source": "Moneycontrol",
+            "date": "6 hours ago",
+            "thumbnail": "https://serpapi.com/searches/65ec26520ead41a3fc76e6f5/images/8982ea04b901f5d0aa6ba902561b7d4d75d35ddbac24948f.jpeg"
+        }
+    ],
+    "top_stories_link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=business+news&tbm=nws&source=univ&tbo=u&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qt8YBKAF6BAgREAU",
+    "top_stories_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=business+news&safe=active&start=0&tbm=nws",
+    "related_searches": [
+        {
+            "block_position": 1,
+            "query": "Stock in news",
+            "items": [
+                {
+                    "name": "Network18",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEoeXrY0eNnvF9WhvTr7jczlv8h103Uf0537i&s=0",
+                    "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Network+18&stick=H4sIAAAAAAAAAOOQUeLSz9U3MDIrMktPN-ItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzEiKT3FyAHiJOdkmZ9i5AQxzcosKitPMfLqp-sbGqZlp1jmpSUn_WLkDUY2soGFcRErl19qSXl-UbaCocUtNkkGN6m1MWrpV5oP3fO5ESF17kF0SnbE7azGVAALGMaenAAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qs9oBKAB6BAhTEAI",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Network+18&safe=active&start=0&stick=H4sIAAAAAAAAAOOQUeLSz9U3MDIrMktPN-ItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzEiKT3FyAHiJOdkmZ9i5AQxzcosKitPMfLqp-sbGqZlp1jmpSUn_WLkDUY2soGFcRErl19qSXl-UbaCocUtNkkGN6m1MWrpV5oP3fO5ESF17kF0SnbE7azGVAALGMaenAAAAA"
+                },
+                {
+                    "name": "Dow Jones & Company",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9phJi3R2_iDfITYjF1xZNBB0L9f1g5nQmp7Cf&s=0",
+                    "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Dow+Jones+%26+Company&stick=H4sIAAAAAAAAAOOQUeLQz9U3SM7JMjfiLS7JT85WyMxTyEstL47iTSotzsxLLS4Gc08xcoEUGpkVmaWnn2KE6zrFyAlimpVZVFaeYuTVT9c3NEzLTrHMS0tO-sXIG4xsZAML4yJWYZf8cgWvfKDBCmoKzvm5BYl5lbfYJBncpNbGqKVfaT50z-dGhNS5B9Ep2RG3sxpTASW0iE6jAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qs9oBKAF6BAhTEAM",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Dow+Jones+%26+Company&safe=active&start=0&stick=H4sIAAAAAAAAAOOQUeLQz9U3SM7JMjfiLS7JT85WyMxTyEstL47iTSotzsxLLS4Gc08xcoEUGpkVmaWnn2KE6zrFyAlimpVZVFaeYuTVT9c3NEzLTrHMS0tO-sXIG4xsZAML4yJWYZf8cgWvfKDBCmoKzvm5BYl5lbfYJBncpNbGqKVfaT50z-dGhNS5B9Ep2RG3sxpTASW0iE6jAAAA"
+                },
+                {
+                    "name": "TheStreet, Inc.",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpWV0pMQVRyzZMTH20zn5gUKiJPF8_I1JuLIZ2&s=0",
+                    "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=TheStreet&stick=H4sIAAAAAAAAAOOQUeLUz9U3MCuzqKw04i0uyU_OVsjMU8hLLS-O4k0qLc7MSy0uBnNPMXKBVBqZFZmlp59i5ABxknOyzE8xIkw4xcirn65vaJiWnWKZl5ac9IuRNxjZyAYWxkWsnCEZqcElRampJbfYJBncpNbGqKVfaT50z-dGhNS5B9Ep2RG3sxpTAZHiyTSaAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qs9oBKAJ6BAhTEAQ",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=TheStreet&safe=active&start=0&stick=H4sIAAAAAAAAAOOQUeLUz9U3MCuzqKw04i0uyU_OVsjMU8hLLS-O4k0qLc7MSy0uBnNPMXKBVBqZFZmlp59i5ABxknOyzE8xIkw4xcirn65vaJiWnWKZl5ac9IuRNxjZyAYWxkWsnCEZqcElRampJbfYJBncpNbGqKVfaT50z-dGhNS5B9Ep2RG3sxpTAZHiyTSaAAAA"
+                },
+                {
+                    "name": "Fox Corporation",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPoWZPUi6oUPReD7B2qghJwNFx6j7tleRkAXeC&s=0",
+                    "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Fox+Corporation&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEzLTrHMS0tOMuItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzFy6efqGxiZFZmlp59i5ABxknOyzE8xcoKYZmUWlZWnGFFN_MXIG4xsZAML4yJWfrf8CgXn_KKC_KLEksz8vFtskgxuUmtj1NKvNB-653MjQurcg-iU7IjbWY2pADDHbbukAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Qs9oBKAN6BAhTEAU",
+                    "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Fox+Corporation&safe=active&start=0&stick=H4sIAAAAAAAAAOOQUeLVT9c3NEzLTrHMS0tOMuItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzFy6efqGxiZFZmlp59i5ABxknOyzE8xcoKYZmUWlZWnGFFN_MXIG4xsZAML4yJWfrf8CgXn_KKC_KLEksz8vFtskgxuUmtj1NKvNB-653MjQurcg-iU7IjbWY2pADDHbbukAAAA"
+                }
+            ],
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Stock+in+news&stick=H4sIAAAAAAAAAOOQMeItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzFy6efqGxiZFZmlp59i5ABxknOyzE8xcoKYZmUWlZWnGHn10_UNDdOyUyzz0pKTfjHyBiMb2cDCuIgVVegWmySDm9TaGLX0K82H7vnciJA69yA6JTvidlZjKgA-AJQ6kwAAAA&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q4qYDegQIUxAG",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Stock+in+news&safe=active&start=0&stick=H4sIAAAAAAAAAOOQMeItLslPzlbIzFPISy0vjuJNKi3OzEstLgZzTzFy6efqGxiZFZmlp59i5ABxknOyzE8xcoKYZmUWlZWnGHn10_UNDdOyUyzz0pKTfjHyBiMb2cDCuIgVVegWmySDm9TaGLX0K82H7vnciJA69yA6JTvidlZjKgA-AJQ6kwAAAA"
+        },
+        {
+            "block_position": 1,
+            "query": "Top business news today India",
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Top+business+news+today+India&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q1QJ6BAhZEAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Top+business+news+today+India&safe=active&start=0"
+        },
+        {
+            "block_position": 1,
+            "query": "Business news in India",
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Business+news+in+India&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q1QJ6BAhYEAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Business+news+in+India&safe=active&start=0"
+        },
+        {
+            "block_position": 1,
+            "query": "Business News in Hindi",
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Business+News+in+Hindi&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q1QJ6BAhaEAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Business+News+in+Hindi&safe=active&start=0"
+        },
+        {
+            "block_position": 1,
+            "query": "Business news today Live",
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Business+news+today+Live&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q1QJ6BAhVEAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Business+news+today+Live&safe=active&start=0"
+        },
+        {
+            "block_position": 1,
+            "query": "Business news today headlines in English",
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Business+news+today+headlines+in+English&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q1QJ6BAhXEAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Business+news+today+headlines+in+English&safe=active&start=0"
+        },
+        {
+            "block_position": 1,
+            "query": "business news, share market",
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=business+news,+share+market&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q1QJ6BAhWEAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=business+news%2C+share+market&safe=active&start=0"
+        },
+        {
+            "block_position": 1,
+            "query": "Times of India business news today",
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Times+of+India+business+news+today&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q1QJ6BAhbEAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Times+of+India+business+news+today&safe=active&start=0"
+        },
+        {
+            "block_position": 1,
+            "query": "Zee Business news",
+            "link": "https://www.google.com/search?num=20&safe=active&sca_esv=4a925da9862a794d&gl=in&hl=en&q=Zee+Business+news&sa=X&ved=2ahUKEwjgoePe6eaEAxUWKlkFHZW1B50Q1QJ6BAhcEAI",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=Zee+Business+news&safe=active&start=0"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=business+news&oq=business+news&hl=en&gl=in&num=20&safe=active&start=20&sourceid=chrome&ie=UTF-8",
+        "other_pages": {
+            "2": "https://www.google.com/search?q=business+news&oq=business+news&hl=en&gl=in&num=20&safe=active&start=20&sourceid=chrome&ie=UTF-8",
+            "3": "https://www.google.com/search?q=business+news&oq=business+news&hl=en&gl=in&num=20&safe=active&start=40&sourceid=chrome&ie=UTF-8",
+            "4": "https://www.google.com/search?q=business+news&oq=business+news&hl=en&gl=in&num=20&safe=active&start=60&sourceid=chrome&ie=UTF-8",
+            "5": "https://www.google.com/search?q=business+news&oq=business+news&hl=en&gl=in&num=20&safe=active&start=80&sourceid=chrome&ie=UTF-8"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=business+news&safe=active&start=20",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=business+news&safe=active&start=20",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=business+news&safe=active&start=20",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=business+news&safe=active&start=40",
+            "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=business+news&safe=active&start=60",
+            "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en&location=India&num=20&q=business+news&safe=active&start=80"
+        }
+    }
+}
