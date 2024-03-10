@@ -7,7 +7,7 @@ load_dotenv()
 SERP_API_KEY = os.getenv("SERP_API_KEY")
 
 params = {
-  "q": "stock market", # search query
+  "q": "financial stocks of popular companies", # search query
   "location": "India", # country searching in
   "hl": "en", # language
   "gl": "in", # geolocation

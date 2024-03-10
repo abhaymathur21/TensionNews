@@ -33,6 +33,7 @@ class SerpTest(db.Model):
     location = db.Column(db.String)
     closing_price = db.Column(db.JSON)
     volume = db.Column(db.JSON)
+    sentiment = db.Column(db.String)
         
 db.init_app(app)
 
