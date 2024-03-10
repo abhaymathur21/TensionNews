@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import requests
 from sqlalchemy.dialects.postgresql import JSONB
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
+from textblob import TextBlob
 
 from llm import llm_response
 from metadata import extract_metadata
@@ -93,6 +94,7 @@ with app.app_context():
     closing_price = []
     volume = []
 
+    sentiment_score = []
 
     for row in db_data:
         title = row.title
@@ -113,11 +115,15 @@ with app.app_context():
         else:
             closing_price.append(None)
             volume.append(None)
+            
+        blob = TextBlob(row.snippet)
+        sentiment = blob.sentiment.polarity
+        sentiment_score.append(sentiment)
         
     
     for i, row in enumerate(db_data, start=0):
                 
-        new_entry = SerpTest(position_in_search = row.position_in_search, date_of_news = row.date_of_news, title = row.title, link_to_article = row.link_to_article, snippet = article_description[i], tags= article_keywords[i], source = row.source, vectors = vector_embeddings[i], company = company[i], location = location[i], closing_price = closing_price[i], volume = volume[i])
+        new_entry = SerpTest(position_in_search = row.position_in_search, date_of_news = row.date_of_news, title = row.title, link_to_article = row.link_to_article, snippet = article_description[i], tags= article_keywords[i], source = row.source, vectors = vector_embeddings[i], company = company[i], location = location[i], closing_price = closing_price[i], volume = volume[i], sentiment = sentiment_score[i])
         
         # Add the new entry to the session
         db.session.add(new_entry)
