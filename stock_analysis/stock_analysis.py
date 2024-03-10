@@ -30,8 +30,9 @@ def main():
     stock_history = get_stock_history(company_name)
 
     if stock_history is not None:
-        print("\nStock History:\n", stock_history.head())
+        print("\nStock History:\n", stock_history)
         plot_stock_history(stock_history, company_name)
 
 if __name__ == "__main__":
     main()
+

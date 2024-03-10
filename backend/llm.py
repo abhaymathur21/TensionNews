@@ -39,9 +39,10 @@ def llm_response(title, link_to_article, snippet, tags, source):
         If you can't figure out the country, replace location with the word "None" in the output format given below.
         Give your output in a single string format: "company; location"
         
-        If you think multiple companies are involved, give multiple values separated by commas as company.
+        If you think multiple companies are involved, give only ONE most prominent company as output.
         If you think multiple cities or countries are involved, give multiple values separated by commas as location.
         
+        Give your output in a single string format: "company; location"
         """
     ]
 
@@ -63,7 +64,7 @@ def llm_response(title, link_to_article, snippet, tags, source):
     
     company, location = map(str.strip, result.split(';'))
     
-    return (company, location)
+    return company, location
 
 # sample_data = {
 #         "position": 3,
