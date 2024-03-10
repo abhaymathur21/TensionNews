@@ -155,12 +155,20 @@ def find_cluster():
         print(f"Cluster of ID {input_id}: {cluster}")
         print(f"Other IDs in the same cluster: {related_ids}")
 
+@app.route('/graph/<type>')
+def graph(type):
+    
+    if type=='tag':
+        return tag_similarity()
+    elif type=='vector':
+        return vector_similarity()
+    else:
+        return {}
+
+
 if __name__ == '__main__':
-    with app.app_context():
-        query=input('Enter the variable: ')
-        if query=='tag':
-            tag_similarity()
-        if query=='vector':
-            vector_similarity()
-        find_cluster()
+    # with app.app_context():
+    #     query=input('Enter the variable: ')
+
+    #     # find_cluster()
     app.run(debug=True)
