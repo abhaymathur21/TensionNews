@@ -47,7 +47,7 @@ const Chat = () => {
     setInput("");
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:5000/chat", {
+      const response = await fetch("http://localhost:5001/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -57,7 +57,10 @@ const Chat = () => {
       const res = await response.json();
       console.log(res);
 
-      addMessage(res["context"], "agent");
+      addMessage("Searching...", "agent");
+      console.log(`/dashboard/latest-news?q=${encodeURIComponent(res["q"])}`);
+
+      router.push(`/dashboard/latest-news?q=${encodeURIComponent(res["q"])}`);
     } catch (error) {
       console.error("Error:", error);
       setMessages((prev) => prev.slice(0, -1));
@@ -81,6 +84,7 @@ const Chat = () => {
                   message: "Hi there! How can I help you today?",
                 },
               ]);
+              router.push("/dashboard/latest-news");
             }}
           >
             <MessageSquareX size={24} color="hsl(263.4 70% 50.4%)" />
