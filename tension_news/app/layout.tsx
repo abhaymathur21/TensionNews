@@ -1,10 +1,6 @@
-import { Navbar } from "@/components/Navbar";
-import { createClient } from "@/utils/supabase/server";
-import { GeistSans } from "geist/font/sans";
-import { redirect } from "next/navigation";
-import AuthButton from "../components/AuthButton";
-import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import { GeistSans } from "geist/font/sans";
+import "./globals.css";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
