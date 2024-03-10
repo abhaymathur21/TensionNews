@@ -21,20 +21,23 @@ const sites = [
   "indiainfoline.com",
 ];
 
-const fetchArticles = async (query: string) => {
+const fetchArticles = async (query: string, n: number = 5) => {
   // https://serpapi.com/search.json?engine=google&q=business+finance+news&api_key=c3ca09050618bf14418bb5cfb3837bd0229c5fafb7257183470bac607100831c&tbm=nws&num=100
   const url = new URL("https://serpapi.com/search.json");
   url.searchParams.append("engine", "google");
   url.searchParams.append("q", query);
   url.searchParams.append("tbm", "nws");
-  url.searchParams.append("num", "5");
-  url.searchParams.append(
-    "api_key",
-    process.env.NEXT_PUBLIC_SERP_API_KEY as string,
-  );
-  const response = await fetch(url.toString());
-  const res = await response.json();
-  return res["news_results"];
+  url.searchParams.append("num", n.toString());
+  url.searchParams.append("api_key", process.env.SERP_API_KEY as string);
+  console.log(url.toString());
+
+  try {
+    const response = await fetch(url.toString());
+    const res = await response.json();
+    return res["news_results"];
+  } catch (error) {
+    return [];
+  }
 };
 
 const LatestNews = async ({
@@ -43,11 +46,13 @@ const LatestNews = async ({
   searchParams: { q: string };
 }) => {
   const articles = await Promise.all(
-    sites.map(async (site) => {
-      const query = `${q || "business+finance+news"} site:${site}`;
-      const articles = await fetchArticles(query);
-      return articles satisfies Article[];
-    }),
+    q
+      ? [fetchArticles(q, 10)]
+      : sites.map(async (site) => {
+          const query = `${q || "business+finance+news"} site:${site}`;
+          const articles = await fetchArticles(query);
+          return articles satisfies Article[];
+        }),
   )
     .then((res) => res.flat() satisfies Article[])
     .then((res: Article[]) =>

@@ -7,7 +7,8 @@ const Graph = ({ width = 1000, height = 600, graph }) => {
   const svgRef = useRef(null);
 
   useEffect(() => {
-    svgRef.current?.children.forEach((i) => svgRef.current.removeChild(i));
+    // if (svgRef.current.children.length > 0)
+    //   svgRef.current?.children.forEach((i) => svgRef.current.removeChild(i));
     const svg = d3.select(svgRef.current);
 
     const colorScale = d3.scaleOrdinal(d3.schemeCategory10);

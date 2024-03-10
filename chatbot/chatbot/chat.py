@@ -12,7 +12,7 @@ from langchain.schema.runnable import (
     RunnablePassthrough,
 )
 
-from chatbot.classify import classify_chain
+from chatbot.query import query_chain
 
 # from chatbot.extracter import extract_chain
 # from chatbot.general import general_chain
@@ -65,7 +65,7 @@ def call_chat(prompt_input, context):
                 "context": context_chain,
                 "input": lambda x: x["input"],
             }
-            | RunnablePassthrough.assign(classification=classify_chain)
+            | RunnablePassthrough.assign(q=query_chain)
             # | RunnableBranch(
             #     (
             #         lambda x: x["classification"] == "yes",
