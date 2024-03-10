@@ -1,6 +1,5 @@
 import NewsCard from "@/components/NewsCard";
 import { type Article } from "@/lib/types";
-import { match } from "assert";
 
 const sites = [
   "economictimes.indiatimes.com",
